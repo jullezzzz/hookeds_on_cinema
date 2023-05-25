@@ -1,0 +1,69 @@
+@font-face{
+    font-family: 'cinematografica1';
+    src: url("Cinematografica-Extralight-trial.ttf");
+}
+
+h1, button, li, a{
+    font-family: cinematografica1;
+    color: white;
+}
+
+h1{
+    font-size: 10rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elemento{
+    margin: 0 10px;
+    
+}
+
+body{
+    background-image: url("Fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#img{
+    padding-left: 200px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    border: solid 1px white;
+    margin: 10px;
+    border-radius: 20px;
+    padding:  0.12rem;
+    padding-right: 200px;
+    font-size: 2rem;
+    background: linear-gradient( 120deg, #5170FF 0%, #FF66C4 100%);
+}
+li a{
+    padding-left: 10px;
+}
+
+button{
+    background: none;
+    border: none;
+    border: solid 1px white;
+    border-radius: 215px;
+    padding: 0.12rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 2rem;
+    background: linear-gradient( 120deg, #5170FF 0%, #FF66C4 100%);
+}
